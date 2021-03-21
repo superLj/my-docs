@@ -89,7 +89,35 @@ function _instanceof (instanceObject, classFunc){
 
 > new
 
+```
+function _new(Func) {
+  const obj = {}
+  obj.__proto__ = Func.prototype
+
+  return typeof Func.call(obj) === Object?Func.call(obj): obj
+}
+
+```
+
 > call, apply, bind
+
+```
+Function.prototype.call = function(context, ...args) {
+  context = context == null? window: context
+
+  context[fn] = this
+  let result = context[fn](...args)
+  delete context[fn]
+  return result
+}
+
+Function.prototype.bind = function(context) {
+  let _this = this
+  return function() {
+    _this.call(context)
+  }
+}
+```
 
 > 基于 Generator 函数实现 async/await 原理
 

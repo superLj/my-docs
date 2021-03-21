@@ -1,7 +1,8 @@
 - JavaScript
 
-  - [闭包](closure.md)
-  - [handWrite](handWrite.md)
+  - [语言精粹](/js/goodParts.md)
+  - [你不知道的 JS](/js/dontKnowJs.md)
+  - [handWrite](/js/handWrite.md)
 
 - NodeJs
 
@@ -14,6 +15,7 @@
 
 - 算法
 
+  - [概览](/arithmetic/overview.md)
   - 数据结构
 
     - [数组](/arithmetic/array.md)
