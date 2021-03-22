@@ -29,3 +29,5 @@
     - [BFS](/arithmetic/BFS.md)
     - [双指针](/arithmetic/twoPointer.md)
     - [滑动窗口](/arithmetic/slidingWindow.md)
+
+  - [一个方法系列](/arithmetic/oneMethod.md)

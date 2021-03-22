@@ -1,6 +1,6 @@
 ### HandWrite Topic
 
-![HandWrite](/imgs/handWrite.png)
+![HandWrite](../imgs/handWrite.png)
 
 > 浅拷贝
 
