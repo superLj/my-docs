@@ -31,5 +31,38 @@
 
 > 十.流程图
 
-```flow
+```
+graph TB
+s(开始) --> step1>输入参数]
+step1 --> step2{判断参数合法性}
+step2 ==> |校验失败|e
+step2--> |校验成功|step3[处理业务]
+step3 --> e(结束)
+style s rx: 10, ry: 10
+style e rx: 10, ry: 10
+```
+
+```
+graph TB
+  s(开始) --> step1>输入参数]
+  subgraph 强调
+    step1 --> step2{判断参数合法性}
+  end
+  step2 ==> |校验失败|e
+  step2--> |校验成功|step3[处理业务]
+  step3 --> e(结束)
+  style s rx: 10, ry: 10
+  style e rx: 10, ry: 10
+```
+
+> 十一.时序图
+
+```
+sequenceDiagram
+  Alice->>+John: Hello John, how are you?
+  Alice->>+John: John, can yoy hear me?
+  Alice->>+Jian: Hello jian
+  John-->>-Alice: Hi Alice, I can hear you!
+  John-->>-Alice: I feel great!
+  Jian-->>-John: This is a demo.
 ```
