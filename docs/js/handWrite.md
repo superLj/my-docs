@@ -123,6 +123,19 @@ Function.prototype.bind = function(context) {
 
 > curry
 
+```
+function curry(fn, ...args) {
+  if (fn.length === args.length) {
+    return fn(...args)
+  }
+
+  return function(){
+    let allArgs = [...args, ...newArgs]
+    return currying(fn, ...allArgs)
+  }
+}
+```
+
 > 继承
 
 > 发布订阅模式
