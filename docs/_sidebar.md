@@ -8,6 +8,7 @@
 
 - [三方登陆](/project/oAuth.md)
 - [权限控制](/project/permission.md)
+- [案件管理](/project/caseManagement.md)
 
 - 算法
 
