@@ -4,6 +4,7 @@
   - [语言精粹](/js/goodParts.md)
   - [你不知道的 JS](/js/dontKnowJs.md)
   - [输入 url 到页面展示](/js/url2page.md)
+  - [typesSript](/js/typescript.md)
   - [handWrite](/js/handWrite.md)
 
 - 项目
