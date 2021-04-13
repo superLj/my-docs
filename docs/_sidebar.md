@@ -7,6 +7,11 @@
   - [typesSript](/js/typescript.md)
   - [handWrite](/js/handWrite.md)
 
+- 设计模式
+
+  - [策略模式](/design/strategy.md)
+  - [责任链模式](/design/duty.md)
+
 - 项目
 
 - [三方登陆](/project/oAuth.md)
