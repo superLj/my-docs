@@ -1,8 +1,11 @@
 # 从输入 url 到页面展示
 
 [从输入 URL 到页面加载的过程](https://zhuanlan.zhihu.com/p/34453198)
+
 [js 运行机制](https://segmentfault.com/a/1190000012925872)
+
 [普通图层和复合图层](https://link.zhihu.com/?target=https%3A//segmentfault.com/a/1190000012925872%23articleHeader16)
+
 [V8 内存浅析](https://zhuanlan.zhihu.com/p/33816534)
 
 - 从浏览器接收 url 到开启网络请求线程

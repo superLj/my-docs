@@ -12,6 +12,7 @@
 - [三方登陆](/project/oAuth.md)
 - [权限控制](/project/permission.md)
 - [案件管理](/project/caseManagement.md)
+- [weekly-serve](/project/weeklyServe.md)
 
 - 算法
 
@@ -46,3 +47,8 @@
 - Vue
 
   - [Vue vs React](/vue/difference.md)
+  - Vue 原理
+    - [Vue dep](/vue/dep.md)
+    - [Vue watcher](/vue/watcher.md)
+    - [Vue nextTick](/vue/nextTick.md)
+    - [Vue diff](/vue/diff.md)
