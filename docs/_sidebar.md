@@ -18,6 +18,7 @@
 - [权限控制](/project/permission.md)
 - [案件管理](/project/caseManagement.md)
 - [weekly-serve](/project/weeklyServe.md)
+- [配置化页面构建平台](/project/autoGenerate.md)
 
 - 算法
 
