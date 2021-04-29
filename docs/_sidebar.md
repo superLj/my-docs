@@ -38,6 +38,7 @@
   - 算法技巧
 
     - [动态规划](/arithmetic/dynamic.md)
+    - [回溯算法](/arithmetic/recall.md)
     - [DFS](/arithmetic/DFS.md)
     - [BFS](/arithmetic/BFS.md)
     - [双指针](/arithmetic/twoPointer.md)
