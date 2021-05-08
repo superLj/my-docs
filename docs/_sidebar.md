@@ -17,6 +17,7 @@
 
   - [策略模式](/design/strategy.md)
   - [责任链模式](/design/duty.md)
+  - [装饰者模式](/design/decorator.md)
 
 - 项目
 

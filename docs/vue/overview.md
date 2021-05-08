@@ -1,5 +1,7 @@
 > Vue Flow
 
+> 如何实现 vue 组件的异步加载
+
 ![Vue Flow](../imgs/VueFlow.jpg)
 
 > Vue overview

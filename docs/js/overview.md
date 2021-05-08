@@ -52,3 +52,54 @@ c. 图片懒加载(offScreen Image), 同上.值得庆幸的是, 越来越多的�
 - 减少请求数
 - 页面使用骨架屏
 - ssr 渲染
+
+> CDN 原理
+
+目的是使用户可就近取得所需内容
+
+> 怎么捕获异步事件的报错
+
+- try catch 无法捕获异步错误
+- Promise 的异常捕获 catch, error 会传递到下一个 then 的回调
+- 用 promise 捕获异步错误
+
+```
+const p3 = () =>  new Promise((reslove, reject) => {
+  setTimeout(() => {
+    reject('async error');
+  })
+});
+
+function main3() {
+  p3().catch(e => console.log(e));
+}
+main3();
+```
+
+- async/await 异常捕获
+
+```
+const fetchFailure = () => new Promise((resolve, reject) => {
+  setTimeout(() => {// 模拟请求
+    if(1) reject('fetch failure...');
+  })
+})
+
+async function main () {
+  try {
+    const res = await fetchFailure();
+    console.log(res, 'res');
+  } catch(e) {
+    console.log(e, 'e.message');
+  }
+}
+main();
+
+```
+
+> 内存益处
+
+- 全局变量
+- 未及时清理计时器或回调函数
+- 闭包
+- DOM 绑定时间未清理

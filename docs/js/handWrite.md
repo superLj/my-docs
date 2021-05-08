@@ -195,6 +195,50 @@ function curry(fn, ...args) {
   ES6是先创建父类的实例对象this, super将this指向子类
 ```
 
+```
+function Parent(name) {
+  this.name = name
+  this.colors = ['red', 'blue', 'green']
+}
+Parent.prototype.getName = function() {
+  return this.name
+}
+
+function Child(name) {
+  Parent.call(this, name)
+}
+Child.prototype = new Parent()
+
+// 函数组合式继承
+Child.prototype = Object.create(Parent.prototype)
+Child.prototype.constructor = Child
+
+
+class B extends A {}
+
+B.prototype.__prop__ = A.prototype
+B.__proto__ = A
+
+function _inherits(sub,parent){
+  //当parent不为函数时必须为空，或者是当parent不为空时必须为函数,否则类型错误
+
+  if(typeOf parent !== "function" && parent !== null){
+    throw new TypeError(
+      "Super expression must either be null or a function,not " + typeof superClass
+    );
+  }
+
+  sub.prototype = Object.Create(parent&&parent.prototype,{ // 寄生组合继承
+    constructor:{ value: sub, enumerable: false, writable: true, configurable: true }
+  })
+
+  if(parent) {
+    Object.setPrototypeOf ? Object.setPrototypeOf(sub, parent):sub.__proto__ = parent
+  }
+}
+
+```
+
 > 发布订阅模式
 
 ```
