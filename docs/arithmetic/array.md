@@ -17,7 +17,6 @@ var findContinuousSequence = function(target) {
     let left = 1, right = 2, middle = (target + 1)/2
     let sum = left + right, res = []
     while(left < middle) {
-      // debugger
         if (sum === target) {
           res.push([left, right])
           sum -= left

@@ -4,6 +4,14 @@
 
 ![知识图谱](../imgs/jsMap.png)
 
+> 文档流
+
+- 块级元素&内联元素
+- 脱离文档流
+  - position:absolute
+  - position:fixed
+  - float
+
 > Event Loop
 
 ```
@@ -95,7 +103,18 @@ async function main () {
 }
 main();
 
-```
+- window.onerror
+
+  - 无法捕获语法错误
+  - 捕获不到静态资源加载异常
+
+- window.addEventListener ['error', 'unhandledrejection']
+
+  - 当一项资源（如图片或脚本）加载失败, 加载资源的元素会触发一个 Event 接口的 error 事件, 并执行该元素上的onerror() 处理函数.
+
+> 错误上报
+
+  - 使用动态创建 img 标签的形式进行上报
 
 > 内存益处
 
@@ -103,3 +122,4 @@ main();
 - 未及时清理计时器或回调函数
 - 闭包
 - DOM 绑定时间未清理
+```
