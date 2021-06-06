@@ -7,6 +7,11 @@
   - [typeScript](/js/typescript.md)
   - [handWrite](/js/handWrite.md)
 
+- depoly
+
+  - [基本操作](/deploy/shell.md)
+  - [docker](/deploy/docker.md)
+
 - 网络安全
 
   - [单页鉴权](/netSecurity/auth.md)
