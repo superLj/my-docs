@@ -1,3 +1,7 @@
+- 博客
+
+  - [基于EasyMock的前端mock解决方案实践](/blogs/easyMock.md)
+
 - JavaScript
 
   - [概述](/js/overview.md)
