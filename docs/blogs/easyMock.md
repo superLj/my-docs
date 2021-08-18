@@ -24,7 +24,7 @@
 
 4. 使用PM2 对node进程守卫
 
-![EasyMock平台](http://121.41.104.96:7300/dist/demo.png?d29da310e9de4bc564ce38e8e0019e17)
+![EasyMock平台](../imgs/easy-mock-platform.png)
 
 二. easy-mock的使用
 
