@@ -6,11 +6,11 @@
 
 1. 服务器使用nvm控制node版本 [node版本 必须为8.x, 否则会报错]
 
-2. docker 部署MongoDB服务
+2. docker 部署MongoDB服务 [27017端口]
 
-3. docker 部署redis服务
+3. docker 部署redis服务 [6379端口]
 
-4. 部署Easy-Mock项目
+4. 部署Easy-Mock项目 [7300端口]
 
 ```
 // 1. 服务器clone代码
