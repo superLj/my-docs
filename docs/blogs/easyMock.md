@@ -105,3 +105,8 @@ step3 --> step4(循环cove更新)
 四. 其他操作
   1. 开发easy-mock vue Cli插件 easy-mock-plugin
   使用vue-cli Generator 生成模板, 安装依赖, 添加一个新的 cli-service 命令
+
+五. 不足
+
+  1. 平台没有mock分类功能
+  2. 对于旧项目[已经自己处理过api接口的项目]兼容不够
