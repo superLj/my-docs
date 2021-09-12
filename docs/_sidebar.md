@@ -1,6 +1,7 @@
 - 博客
 
   - [基于EasyMock的前端mock解决方案实践](/blogs/easyMock.md)
+  - [基于jenkins&gitlab的自动部署](/blogs/gitlab.md)
 
 - JavaScript
 
