@@ -2,6 +2,7 @@
 
   - [基于EasyMock的前端mock解决方案实践](/blogs/easyMock.md)
   - [基于jenkins&gitlab的自动部署](/blogs/gitlab.md)
+  - [Vue3 实践](/blogs/vue3.md)
 
 - JavaScript
 
