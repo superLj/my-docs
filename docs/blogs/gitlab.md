@@ -12,7 +12,7 @@ gitlab
 
 源码管理: 
   repository url: 项目的git地址
-  Credentials: Gitlab API token -> API token
+  Credentials: Gitlab API token -> API token || 账号/密码
   指定分支
 
 构建触发器:
@@ -37,11 +37,19 @@ cp lanui.tar.gz /usr/local/nginx
 cd /usr/local/nginx
 tar -xzvf lanui.tar.gz
 ```
+构建后操作
+send build articatcs over SSH
+
+Name: ip地址
+Source files: dist/** 当前目录/dist/所有文件
+Remote directory: nginx文件目录
+
 3. 插件管理
   NodeJS Plugin
   Gitlab Hook Plugin
   Gitlab Hook Plugin
   Generic Webhook Trigger
+  Publish Over SSH 通过SSH连接其他Linux机器，远程传输文件及执行Shell命令
 
 > gitlab 的配置
 
