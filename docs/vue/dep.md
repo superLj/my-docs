@@ -1,4 +1,4 @@
-> Vue dep
+> Vue dep 1
 
 ```
 let uid = 0
